@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btJlEditorComment">
+		<field name="bID" type="I">
+			<KEY />
+			<UNSIGNED />
+		</field>
+		<field name="timestamp" type="T">
+		  <NOTNULL />
+		  <DEFTIMESTAMP />
+		</field>
+		<field name="comment_text" type="X2"></field>
+		<field name="by_uID" type="I"><UNSIGNED /></field>
+	</table>
+
+</schema>
